@@ -1,0 +1,24 @@
+{
+    "name"   : "smsimoes/stringable",
+    "description": "Core Component for objects that require a string representation",
+    "license": "GPL-3.0+",
+    "keywords": [],
+    "homepage": "https://github.com/miguelsimoes/stringable",
+    "authors": [
+        {
+            "name": "Miguel Simões",
+            "email": "msimoes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MiguelSimoes\\Core\\ParameterBag\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
