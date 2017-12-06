@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "MiguelSimoes\\Core\\ParameterBag\\": ""
+            "MiguelSimoes\\Core\\Stringable\\": ""
         },
         "exclude-from-classmap": [
             "/Tests/"
