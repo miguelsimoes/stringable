@@ -12,11 +12,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "MiguelSimoes\\Core\\Stringable\\": ""
+            "MiguelSimoes\\Core\\Stringable\\": "src/"
         },
         "exclude-from-classmap": [
-            "/Tests/"
+            "/tests/"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiguelSimoes\\Core\\Stringable\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
     },
     "require": {
         "php": "^7.0"
